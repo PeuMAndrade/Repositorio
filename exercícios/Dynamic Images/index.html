@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Images</title>
+</head>
+<body>
+    <h1>Dynamic Images</h1>
+    <p>Tend to open this site on many different devices or simply increase and decrease the size of your browser.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Images/photop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Images/photom.png" type="image/png">
+        <img src="Images/photog.png" alt="Flexible Image">
+    </picture>
+</body>
+</html>

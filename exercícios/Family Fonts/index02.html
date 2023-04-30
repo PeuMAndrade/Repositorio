@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External Fonts</title>
+    <style>
+        @font-face {
+            font-family: 'Codigra';
+            src: url('Fonts/Codigra.ttf') 
+            format('truetype'); 
+            font-weight: normal; 
+            font-style: normal;
+        }
+/*
+    Format Types:
+        Opentype (otf)
+        Truetype (ttf)
+        embedded-opentype
+        truetype-aat (Apple Advanced Typography)
+        svg
+*/
+        body{
+            font: Arial, Helvetica, sans-sarif;
+        }
+        h1{
+            font: 3em 'Codigra', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tittle</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel deleniti nemo nobis iusto perferendis temporibus impedit. Rerum ex ipsam a, fuga ea optio quaerat quo expedita reiciendis dolores ad voluptatem.</p>
+</body>
+</html>

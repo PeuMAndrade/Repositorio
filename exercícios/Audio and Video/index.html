@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video</title>
+</head>
+<body>
+    <h1>Audio and Video</h1>
+    <h2>Playing Audio</h2>
+    <p>Let's learn how to play audion in HTML</p>
+    <audio preload="metadata" controls>
+        <source src="Audio/Pktheme.mp3" type="audio/mpeg">
+        <source src="Audio/Pktheme.ogg" type="audio/ogg">
+        <source src="Audio/Pktheme.wav" type="audio/wav">
+        <p>Unfortunately, your browser is unable to play audio. <a href="Audio/Pktheme.mp3">Click here to install MP3 file</a></p>
+    </audio>
+    <h2>Playing Video</h2>
+    <p>Let's lern how to insert videos hosted on your own server</p>
+    <video width="500" poster="Media/Cavalof.jpg" type="video/mp4" controls>
+       <source src="Media/Pktheme.mp3" type="video/mp3">
+       <source src="Media/Cavalovmkv.mkv" type="video/mkv">
+       <source src="Media/Cavalovwebm.webm" type="video/webm">
+       <p>Your browser does not support video playback</p>
+    </video>
+    <h3>Insert Youtube Videos</h3>
+    <p>Let's lern how to insert external videos</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gLxw4hImSoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

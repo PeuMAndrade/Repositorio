@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #275B7E;
+}
+.caixa1 {
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+    font-family: 'Bebas Neue'
+    color: #444444;
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    left: 480px;
+}
+.caixa1:hover{
+    background-color: aqua;
+    transition-duration: .5s;
+    border-radius:10px ;
+}
+
+.arcanine {
+    position: relative;
+    top: -270px;
+    left: 650px;
+}
+
+.celebi {
+    position: relative;
+    top: -63px;
+    left: 443px;
+    width: 210px;
+}

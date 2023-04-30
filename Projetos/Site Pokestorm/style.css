@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor0: #2E5A7E;
+    --cor1: #30363C;
+    --cor2: #333333;
+    --cor3: #222222;
+    --cor4: #FF3535;
+    --cor5: #0049BE;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+} 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+nav {
+    background-image: linear-gradient(#343a40, #242a30);
+    padding: 15px;
+    height: 20px;
+}
+
+nav > a {
+    color: rgba(255, 255, 255, 0.637);
+    padding: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+    font-family: var(--fonte-destaque);
+}
+
+nav > a:hover {
+    background-color: var(--cor5);
+    color: white;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+
+main .img {
+    height: 170px;
+    margin: auto;
+    margin-left: -40px;
+    margin-top: -20px;
+}
