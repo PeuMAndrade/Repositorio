@@ -1,0 +1,140 @@
+@charset "UTF=8";
+
+.frame {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to top right, #42389f 0%, #4ec6ca 100%);
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.number {
+    position: relative;
+    height: 100px;
+    width: 200px;
+}
+
+.one-one {
+    position: absolute;
+    height: 40px;
+    width: 20px;
+    background: #fff;
+    top: 0;
+    left: -6px;
+    border-radius: 3px;
+    transform: rotate(50deg);
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.216);
+
+}
+
+.one-two {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 24px;
+    border-radius: 3px;
+    left: 10px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.216)
+}
+
+.two-five {
+    position: absolute;
+    background-color: #ffffff;
+    height: 57px;
+    width: 20px;
+    left: 41px;
+    top: 43px;
+    border-radius: 3px 0px 0px 0px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.216);
+
+}
+
+.two-two {
+    position: absolute;
+    transform: rotate(90deg);
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 20px;
+    left: 57px;
+    top: 65px;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.216);
+}
+
+.two-three {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 20px;
+    left: 57px;
+    top: 28px;
+    border-radius: 3px;
+    transform: rotate(90deg);
+}
+
+.two-four {
+    position: absolute;
+    background-color: rgb(254, 254, 254);
+    height: 62.5px;
+    width: 20px;
+    left: 72px;
+    top: 0px;
+    border-radius: 0px 3px 3px 0px ;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.216);
+}
+
+.two-one {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 20px;
+    left: 57px;
+    top: -15px;
+    transform: rotate(90deg);
+    border-radius: 3px 0px 3px 3px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.216);
+}
+
+.zero-one {
+    position: absolute;
+    z-index: 8;
+    top: 0;
+    left: 100px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 80px;
+    border:24px solid #fff;
+    border-radius: 30%;
+    box-shadow:0 0 13px 0 rgb(0, 0, 0, 0.2) ;
+}
+
+.big {
+    position: relative;
+    display: block;
+    font-weight: 700;
+    font-size: 82px;
+    margin-top:-10px;
+
+}
+
+.small {
+    position: relative;
+    display: block;
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: -13px;
+}
