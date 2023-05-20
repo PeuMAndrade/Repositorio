@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: green;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+    
+}
+
+#iphone {
+    position: absolute;
+    background: url(Imagens/frame-iphone.png) no-repeat;
+    width: 312px;
+    height: 635px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#tela {
+    position: relative;
+    height: 470px;
+    width: 267px;
+    top: 80px;
+    left: 22px;
+}
+
+#but {
+    text-align: right;
+}
+
+#but img {
+    position: relative;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4)
+    
+}
+
+#but img:hover {
+    border: 2px solid white;
+    transition: transform .3s, border .2s;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
