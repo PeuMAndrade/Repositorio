@@ -16,6 +16,8 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .logo{
@@ -125,6 +127,7 @@ section{
     text-align: center;
     padding: 5%;
     width: 90%;
+    height: 600px;
 }
 
 section h2{
@@ -152,5 +155,51 @@ section h2{
 }
 
 .card:hover{
+    background-color: #ff2978;
+    padding: 48px;
+    color: white;
+}
 
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none; 
+}
+
+.text-hidden{
+    display: none;
+}
+
+.card:hover .text-hidden{
+    display: block;
+}
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180f4a, #090422, black);
+    text-align: center;
+    border-top: 5px solid #ff2978;
+}
+
+.logo-rodape{
+    padding: 100px;
+}
+
+.agencia{
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    font-size: 34px;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.whats img{
+    width: 100px;
 }
