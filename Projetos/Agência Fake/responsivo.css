@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@media screen and (max-width: 1020px){
+    .navbar{
+        position: relative;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        text-align: center;
+        margin: 0px;
+    }
+    .header{
+        padding-top: 50px;
+    }
+
+    .headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .headline p{
+        text-align: center;
+    }
+    .img-headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    section{
+        margin-top: 300px;
+        height: 900px;
+    .card{
+        width: 100%;
+    }
+}
+}
+@media screen and (max-width: 500px){
+    section{
+        height: 970px;
+    }
+}

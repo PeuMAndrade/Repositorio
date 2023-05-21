@@ -10,7 +10,7 @@
 }
 
 .navbar{
-    /* background-color: black; */
+    background-color: white;
     height: 100px;
     display: flex;
     flex-flow: row wrap;
@@ -35,9 +35,10 @@
 
 .menu{
     flex: 70%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     text-align: right;
     padding: 20px;
+    
 }
 
 .menu a{
@@ -45,11 +46,23 @@
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;
+    /* border: 1px solid black; */
+    display: inline;
+    
+    
+}
+
+.p-menu{
+    display: inline-block;
+    width: 94px;
+    text-align: center;
 }
 
 .menu a:hover{
     color: #ff2978;
     border-top: 4px solid #180f4a;
+    transition: 0.2s;
+    font-weight: bold;
 }
 
 #botao{
@@ -59,11 +72,14 @@
     border-radius: 5px;
     margin-right: 10%;
     margin-left: 5%;
+    
 }
 
 #botao:hover{
     border: none;
     background-color: #ff2978;
+    transition: 0.5s;
+    font-weight: bold;
 }
 
 .header{
@@ -73,6 +89,7 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    padding-top: 121px;
 }
 
 .headline{
@@ -102,11 +119,14 @@
     border-radius: 5px;
     display: inline-block;
     text-decoration: none;
+    transition: 0.5s;
+    width: 200px;
+    text-align: center;
 }
 
 .contact-btn:hover{
     background-color: #180f4a;
-
+    font-weight: bold;
 }
     
 
@@ -118,7 +138,7 @@
 }
 
 section{
-    margin-top: 80px;
+    margin-top: 147px;
     border: 1px solid black;
     margin-left: 5%;
     margin-right: 5%;
@@ -169,7 +189,7 @@ section h2{
 }
 
 .text-hidden{
-    display: none;
+    display: none; 
 }
 
 .card:hover .text-hidden{
@@ -178,14 +198,18 @@ section h2{
 
 footer{
     margin-top: 100px;
-    height: 400px;
+    height: 200px;
     background-image: linear-gradient(180deg, #180f4a, #090422, black);
     text-align: center;
     border-top: 5px solid #ff2978;
 }
 
+footer p, b{
+    color: white;
+}
+
 .logo-rodape{
-    padding: 100px;
+    padding: 56px;
 }
 
 .agencia{
