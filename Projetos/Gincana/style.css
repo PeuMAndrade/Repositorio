@@ -94,16 +94,25 @@ section a{
     font-size: 2rem;
 }
 .whats{
-    margin-top: 20px;
+    padding: 20px 0px;
 }
 
+
+.p-p{
+    text-align: center;
+    padding: 20px 0px;
+    
+}
 li{
     margin: 15px;
 }
 .cont1{
     flex: 45%;
-    margin-bottom: 30px;
     text-align: center;
+}
+
+#contatos{
+    border: 3px solid black;
 }
 
 .cont2{
@@ -135,6 +144,7 @@ a img{
     border: 3px solid;
     padding: 10px;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 .d-doa h2{
