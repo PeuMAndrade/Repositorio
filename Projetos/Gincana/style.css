@@ -93,7 +93,7 @@ strong{
 #sec2{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    width: 95%;
+    width: 100%;
     font-family: 'Roboto Condensed', sans-serif;
     display: flex;
     margin: auto;
@@ -120,13 +120,12 @@ li{
     margin: 15px;
 }
 .cont1{
-    flex: 45%;
+    flex: 50%;
     text-align: center;
 }
 
 .cont2{
-    flex: 45%;
-    
+    flex: 50%;
     text-align: center;
 }
 
