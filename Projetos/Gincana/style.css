@@ -97,8 +97,12 @@ strong{
     font-family: 'Roboto Condensed', sans-serif;
     display: flex;
     margin: auto;
-    margin-top: -40px;
+    margin-top: -10px;
     /* border: 1px solid black; */
+}
+
+#sec2 h2{
+    font-style: normal;
 }
 
 section a{
