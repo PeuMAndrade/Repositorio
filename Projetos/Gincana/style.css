@@ -6,35 +6,49 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: ;
 }
 
-header{
-    background-color: rgb(255, 255, 255);
+html, body{
+    background: linear-gradient(rgb(57, 57, 249), rgb(0, 0, 79));
+}
+
+p, h2{
+    font-style: italic;
+}
+
+.header{
     justify-content: center;
-    text-align: center;
+    text-align: center;  
+    background-color:white;
+    width: 80%;
+    margin: auto;
 }
 main{
     
 }
-.sec{
+#sec1 h1{
     background-color: rgb(255, 255, 255);
-    color: black;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
 }
 
 h1{
     font-family: 'Roboto Condensed', sans-serif;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
+    padding: 20px 20px 0px 20px;
 }
 
 h2{
     font-family: 'Roboto Condensed', sans-serif;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-size: 0.5em;
 }
 
 #sec1{
@@ -46,7 +60,7 @@ p{
     justify-content: center;
     margin: auto;
     font-family: 'Roboto Condensed', sans-serif;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #sec2{
@@ -56,7 +70,8 @@ p{
     font-family: 'Roboto Condensed', sans-serif;
     display: flex;
     margin: auto;
-    border: 1px solid black;
+    margin-top: -40px;
+    /* border: 1px solid black; */
 }
 
 section a{
@@ -64,10 +79,16 @@ section a{
     color: rgb(0, 0, 0);
     font-size: 2rem;
 }
+.whats{
+    margin-top: 20px;
+}
 
+li{
+    margin: 15px;
+}
 .cont1{
     flex: 40%;
-    
+    margin-bottom: 30px;
     text-align: center;
 }
 
