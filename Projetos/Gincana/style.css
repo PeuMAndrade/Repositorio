@@ -92,6 +92,8 @@ img{
 
 .video{
     border-radius: 10px;
+    width: 250px;
+    height: 200px;
 }
 
 .d-video{
@@ -106,6 +108,7 @@ img{
 .d-video h1{
     color: rgb(238, 255, 47);
 }
+
 
 
 
