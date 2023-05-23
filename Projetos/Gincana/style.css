@@ -208,10 +208,13 @@ a img{
 }
 
 #help a{
-    font-size: 1.8em;
+    font-size: 1.2em;
     text-decoration: none;
     color: black;
-    
+}
+
+#help h2{
+    padding-top: 20px;
 }
 
 #l-help{
