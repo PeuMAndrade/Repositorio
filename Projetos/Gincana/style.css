@@ -140,6 +140,10 @@ a img{
     list-style-type: none;
 }
 
+.d-doa li{
+    margin-bottom: 30px;
+}
+
 .video{
     border-radius: 10px;
     width: 250px;
