@@ -69,6 +69,15 @@ strong{
     color: rgb(1, 111, 1);
 }
 
+#contatos{
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+    border: 3px solid black;
+    font-size: 1.2em;
+}
+
 #sec1{
     
     background-color: rgb(255, 255, 255);
@@ -84,7 +93,7 @@ strong{
 #sec2{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    width: 90%;
+    width: 95%;
     font-family: 'Roboto Condensed', sans-serif;
     display: flex;
     margin: auto;
@@ -113,10 +122,6 @@ li{
 .cont1{
     flex: 45%;
     text-align: center;
-}
-
-#contatos{
-    border: 3px solid black;
 }
 
 .cont2{
