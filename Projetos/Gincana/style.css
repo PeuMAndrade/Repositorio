@@ -132,6 +132,8 @@ a img{
     justify-content: center;
     width: 90%;
     margin: auto;
+    border: 3px solid;
+    padding: 10px;
 }
 
 .d-doa h1{
