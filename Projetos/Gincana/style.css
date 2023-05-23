@@ -65,6 +65,10 @@ a{
     font-size: 0.5em;
 }
 
+strong{
+    color: rgb(1, 111, 1);
+}
+
 #sec1{
     
     background-color: rgb(255, 255, 255);
@@ -157,10 +161,16 @@ a img{
 
 .d-doa ul{
     list-style-type: none;
+    
 }
-
 .d-doa li{
     margin-bottom: 30px;
+}
+
+.d-doa a{
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
 }
 
 .video{
@@ -189,7 +199,12 @@ a img{
     margin: auto;
     margin-top: 20px;
     border-radius: 5px;
+    padding: 20px;
+    font-size: 1.2em;
 
+}
+#help p{
+    margin: 20px 0px;
 }
 
 #help a{
