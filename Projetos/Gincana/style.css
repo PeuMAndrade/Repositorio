@@ -130,14 +130,19 @@ a img{
 .d-doa{
     text-align: center;
     justify-content: center;
-    width: 90%;
+    width: 95%;
     margin: auto;
     border: 3px solid;
     padding: 10px;
+    border-radius: 5px;
 }
 
-.d-doa h1{
-    margin-top: -20px;
+.d-doa h2{
+    font-size: 2em;
+}
+
+.d-doa p{
+    font-size: 1.2em;
 }
 
 .d-doa ul{
