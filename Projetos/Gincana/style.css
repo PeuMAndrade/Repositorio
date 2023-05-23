@@ -8,10 +8,6 @@
     box-sizing: border-box;
 }
 
-html, body{
-    background: linear-gradient(rgb(57, 57, 249), rgb(0, 0, 79));
-}
-
 p, h2{
     font-style: italic;
 }
