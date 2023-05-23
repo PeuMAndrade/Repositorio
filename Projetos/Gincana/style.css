@@ -182,6 +182,48 @@ a img{
     color: black;
 }
 
+#help{
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+#help a{
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#l-help{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    /* border: 1px solid black; */
+}
+
+#l1-help{
+    flex-direction: 40%;
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+#l1-help ul{
+    list-style-type: none;
+}
+#l2-help{
+    flex-direction: 40%;
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+#l2-help ul{
+    list-style-type: none;
+}
 
 
 
