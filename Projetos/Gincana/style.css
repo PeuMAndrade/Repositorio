@@ -130,6 +130,8 @@ a img{
 .d-doa{
     text-align: center;
     justify-content: center;
+    width: 90%;
+    margin: auto;
 }
 
 .d-doa h1{
