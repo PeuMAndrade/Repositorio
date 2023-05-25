@@ -19,7 +19,8 @@ p, h2{
 }
 
 header{
-    background: radial-gradient(rgb(120, 166, 28), rgb(6, 124, 6));
+    background: radial-gradient(rgba(40, 9, 215, 0.827), rgb(0, 174, 255));
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.402);
 }
 
 header h1{
@@ -38,7 +39,7 @@ header h1{
     margin: auto;
 }
 main{
-    
+    margin-top: 10px;
 }
 #sec1 h1{
     background-color: rgb(255, 255, 255);
@@ -66,7 +67,7 @@ a{
 }
 
 strong{
-    color: rgb(1, 111, 1);
+    color: rgb(4, 71, 255);
 }
 
 #contatos{
