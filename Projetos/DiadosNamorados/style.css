@@ -78,12 +78,13 @@ header h2{
   }
 
   .text{
-    margin-left: 30%;
+    text-align: center;
+    margin-left: -20px;
     display: block;
     width: 500px;
-    margin-top: 90px;
+    margin-top: 50px;
     font-family: "Valentine";
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
  
   
