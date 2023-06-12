@@ -20,10 +20,12 @@ header{
     font-size: 1.3rem;
 }
 
+body{background: linear-gradient(#D62C38, #C72543);
+}
 
 
 #conteudo{
-    background: linear-gradient(#D62C38, #C72543);
+    
     width: 100vw;
     height: 100vh;
 }
