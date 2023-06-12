@@ -38,11 +38,41 @@ header{
     height: 90vh;
     background-color: rgb(255, 255, 255);
     margin: auto;
+    
 }
-
-
 
 header h2{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1rem;
 }
+
+
+.card {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    width: 250px;
+    height: 400px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .card:hover {
+    border: 1px solid black;
+  }
+  
+  
