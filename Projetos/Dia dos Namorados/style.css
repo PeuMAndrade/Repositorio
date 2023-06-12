@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Valentine';
+    src: url(valentine_day/Valentine\ Day\ Personal\ Use.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background: linear-gradient(#B21D50, #9D1764);
+    color: white;
+    text-align: center;
+    font-family: "Valentine";
+    font-size: 2rem;
+}
+
+#conteudo{
+    background: linear-gradient(#D62C38, #C72543);
+    width: 100vw;
+    height: 100vh;
+}
+
+#erro{
+    width: 100vw;
+    height: 20px;
+}
+
+#caixa{
+    width: 90vw;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.video{
+    width: 90vw;
+    height: 90vh;
+}
