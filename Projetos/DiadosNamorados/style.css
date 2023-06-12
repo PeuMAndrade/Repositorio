@@ -25,7 +25,6 @@ body{background: linear-gradient(#D62C38, #C72543);
 
 
 #conteudo{
-    
     width: 100vw;
     height: 100vh;
 }
@@ -51,12 +50,12 @@ header h2{
 
 .card {
     position: relative;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     width: 250px;
-    height: 400px;
+    height: 500px;
     background: rgba(217, 217, 217, 0.58);
     border: 1px solid white;
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
@@ -71,6 +70,8 @@ header h2{
     user-select: none;
     font-weight: bolder;
     color: black;
+    
+    
   }
   
   .card:hover {
