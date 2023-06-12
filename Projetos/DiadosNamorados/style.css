@@ -42,9 +42,15 @@ body{background: linear-gradient(#D62C38, #C72543);
     background-color: rgb(255, 255, 255);
     margin: auto;
     border-radius: 10px;
-    
+    font-family: "Valentine";
+    font-size: 2.5rem;
 }
-
+#caixa p{
+    text-align: center;
+}
+#space{
+    margin-top: 31%;
+}
 header h2{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1rem;
@@ -81,12 +87,7 @@ header h2{
 
   .text{
     text-align: center;
-    margin-left: -66px;
-    position: relative;
-    transform: translate(-50%, -50%);
-    top: 10%;
-    left: 64%;
-
+    margin: auto;
     width: 500px;
     margin-top: 115px;
     font-family: "Valentine";
