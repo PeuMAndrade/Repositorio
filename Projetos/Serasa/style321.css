@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'loucos';
+    src: url(equalize/Equalize.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /*background: linear-gradient( #00c6ff, #0072ff);*/
+}
+
+#tit{
+    font-family: "loucos";
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #00c6ff, #0072ff);
+}
+
+#text{
+    text-align: center;
+}
