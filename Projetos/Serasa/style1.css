@@ -93,13 +93,11 @@ h1{
 
 #contrato{
     /*border: 1px solid black;*/
-    height: 30%;
-    
+    height: 30%;   
 }
 
 a{
     text-decoration: none;
-
 }
 
 #text{
@@ -121,7 +119,7 @@ img{
     margin: auto;
     display: flex;
     padding: 12px 28px;
-    margin-left: 70%;
+    margin-left: 10%;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
