@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+   
+    <nav>
+    <img src="serasa.png" alt="">
+    </nav>
+    <main>
+        <div id="caixap">
+            <div id="cont">
+                <h1>Bem-Vindos Ao Serasa <br>da Equipe Pira</h1>
+                <h2>Olá! Identifique-se para acessar as informações</h2> <br>
+                <div id="forms">
+                    <p>APELIDO NA GINCANA: </p>
+                            <input type="text" name="nome" id="textoInput" required maxlength="30"
+                            placeholder="Dinho Safadinho" autocomplete="name" class="input">
+                            <button class="button" onclick="enviarFormulario()">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        function enviarFormulario() {
+          var texto = document.getElementById("textoInput").value;
+          window.location.href = "index2.html?texto=" + encodeURIComponent(texto + ",");
+        }
+      </script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    text-align: center;
+    border-bottom: 2px solid rgba(175, 168, 168, 0.466);
+}
+
+nav img{
+    width: 200px;
+}
+
+main h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+    font-size: 1.5rem;
+}
+main h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+    font-size: 1rem;
+    margin-top: 5%;
+}
+main{
+    margin-top: 2%;
+}
+#cont{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.input{
+    width: 100%;
+    max-width: 220px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  #forms{
+    text-align: center;
+  }
+
+  .button {
+    margin: auto;
+    display: flex;
+    padding: 12px 28px;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #00c6ff, #0072ff);
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 4px 0px #0072ff;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  
+  .button:active {
+    transform: translateY(0px);
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right, #0072ff, #00c6ff);
+  }
+  
+  .button:before,
+  .button:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  
+  .button:before {
+    top: -3px;
+    left: -3px;
+    border-radius: 40px;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+  }
+  
+  .button:after {
+    bottom: -3px;
+    right: -3px;
+    border-radius: 40px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+  }
+
+   #forms p{
+    font-family: "Roboto";
+   }
+
+   a{
+    text-decoration: none;
+    color: black;
+   }
+
+   #caixap{
+    display: flex;
+   }
+
+   
