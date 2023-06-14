@@ -1,51 +1,5 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
-#gv{
-    text-align: center;
-    margin-bottom: 5%;
-}
-#gv p{
-    display: inline;
-    font-family: "Roboto";
-}
-#caixa{
-    margin-bottom: 5%;
-}
-#feirao{
-    text-align: center;
-    color: white;
-    margin-bottom: 2%;
-    margin-top: 2%;
-    font-size: rem;
-}
-strong{
-    color: yellow
-}
-
-#feica{
-border: 1px solid black;
-background: linear-gradient(#009FFD, 
-#2A2A72);
-width: 100%;
-margin: auto;
-margin-bottom: 5%;
-}
-
-#text1{
-    font-size: 0.8rem;
-    text-align: center;
-    color: white;
-    padding: 5%;
-}
-#text2{
-    font-size: 1rem;
-    text-align: center;
-    color: white;
-    padding: 5%;
-}
-#caixa1{
-    display: flex;
-}
 
 *{
     font-family: "Roboto";
@@ -54,45 +8,126 @@ margin-bottom: 5%;
     color: rgb(80, 79, 79);
 }
 
+#menu{
+border: 1px solid black;
+background: linear-gradient(#009FFD, 
+#2A2A72);
+width: 100%;
+margin: auto;
+margin-bottom: 5%;
+}
 
-#cont{
+#feirao{
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 2rem;
+}
+
+strong{
+    color: yellow;
+    font-size: 3rem;
+}
+
+#scrpt{
+    text-align: center;
+    margin-bottom: 2%;
+}
+#scrpt p{
+    display: inline;
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.751);
+}
+
+
+/*Cards*/
+#cont1{
     margin: auto;
-    width: 300px;
-    height: 250px;
+    width: 80%;
     background: white;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
                 0 0  0 2px rgb(190, 190, 190),
                 0.3em 0.3em 1em rgba(0,0,0,0.3);
     margin-bottom: 5%;
+    
 }
+
+#cont1 h1{
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+#cont{
+    display: flex;
+}
+
 
 h1{
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
-    background-color: #009FFD;
+    background-image: linear-gradient(to bottom right, #00c6ff, #0072ff);
     border-radius: 10px 10px 0px 0px;
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+    
 }
 
-#caixa2{
-    width: 35%;
-    height: 150px;
-    display: inline-flex;
+#caixa1{
+    width: 400px;
+    height: 350px;
     /*border: 1px solid black;*/
-    text-align: center;
+    display: flex;
+}
+
+
+#foto{
+    /*border: 1px solid black;*/
+    height: 70%;
     
+}
+
+#contrato{
+    /*border: 1px solid black;*/
+    height: 30%;
     
 }
-#caixa2 img{
-    width: 100%;
-    margin-left: 3%;
-    margin-top: 3%;
-    margin-bottom: 15%;
+
+#text{
+    /*border: 1px solid black;*/
+    padding: 5%;
+    padding-top: 2%;
+    width: 50%;
+    color: black;
+    font-size: 1.2rem;
+    
 }
-#caixa3{
-    width: 65%;
-    height: 230px;
-    padding: 4%;
+
+img{
+    width: 150px;
+    padding: 5%;
+    margin: auto;
 }
+
+.button {
+    margin: auto;
+    display: flex;
+    padding: 12px 28px;
+    margin-left: 70%;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #00c6ff, #0072ff);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px #0072ff;
+    transition: all 0.2s ease-in-out;
+  }
+
 
 
