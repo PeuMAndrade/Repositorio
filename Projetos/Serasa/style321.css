@@ -22,4 +22,13 @@ body{
 
 #text{
     text-align: center;
+    background-color: #0072ff;
+    width: 80%;
+    margin: auto;
+    font-size: 0.6rem;
 }
+
+#textbox{
+    font-size: 1rem;
+}
+
