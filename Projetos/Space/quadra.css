@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'guardians';
+  src: url(guardians/Guardians.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+  margin-top: 5%;
+  background: linear-gradient(0, #120c56, #000000);
+}
+
+h1{
+    font-size: 1em;
+    color: white;
+    font-family: "guardians";
+    text-align: center;
+    margin-bottom: 5%;
+}
+strong{
+    font-size: 1.3em;
+}
+.textbox{
+    width: 80%;
+    margin: auto;
+    line-height: 1.7em;
+    
+}
+h2{
+    font-size: 1.5em;
+    color: white;
+    font-family: "guardians";
+    text-align: center;
+}
+
