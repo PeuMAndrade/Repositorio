@@ -70,6 +70,14 @@ body{
     width: 70%;
     margin: auto;
     border: 4px solid white;
+    border-bottom: 0px;
+    padding: 1%;
+   }
+   .title2{
+    width: 50%;
+    margin: auto;
+    border: 4px solid white;
+    border-top: 0px;
     padding: 1%;
    }
   .title p{
@@ -77,13 +85,22 @@ body{
     font-family: "guardians";
     text-align: center;
     border: 1px solid white;
-    font-size: 2em;
+    font-size: 2.5em;
+    border-bottom: 0px;
+  }
+  .title2 p{
+    color: white;
+    font-family: "guardians";
+    text-align: center;
+    border: 1px solid white;
+    font-size: 2.5em;
+    border-top: 0px;
   }
 
   
 
   .stars{
-    position: relative;
+    margin: auto;
     width: 4px;
     height: 4px;
     border-radius: 50%;
@@ -94,7 +111,16 @@ body{
       250px 130px white,
       200px 50px white,
       150px 100px white,
-      320px 100px white;
+      320px 100px white,
+      0px 0px white,
+      -170px 10px white,
+    -250px 220px white,
+    -320px 270px white,
+    -470px 250px white, 
+    -550px 250px white,
+    -650px 250px white,
+    -780px 220px white,
+    -890px 200px white;
       animation: anim-stars 30s linear infinite;
   }
 
@@ -120,11 +146,20 @@ body{
     250px 130px white,
     200px 50px white,
     150px 100px white,
-    320px 100px white;
+    320px 100px white,
+    0px 0px white,
+    -170px 10px white,
+    -250px 220px white,
+    -320px 270px white,
+    -470px 250px white, 
+    -550px 250px white,
+    -650px 250px white,
+    -780px 220px white,
+    -890px 200px white;
 }
 
 .stars2{
-  position: relative;
+  margin: auto;
   width: 2px;
   height: 2px;
   border-radius: 50%;
@@ -136,7 +171,19 @@ body{
     230px 10px white,
     120px 130px white,
     300px 130px white,
-    220px 115px white;
+    220px 115px white
+    0px 10px white,
+    10px 100px white,
+    20px 80px white,
+    30px 35px white,
+    -160px 10px white,
+    -220px 220px white,
+    -380px 270px white,
+    -440px 250px white, 
+    -520px 250px white,
+    -680px 250px white,
+    -760px 220px white,
+    -810px 200px white;
   animation: anim-stars 20s linear infinite;
 }
 
@@ -155,7 +202,20 @@ body{
     230px 10px white,
     120px 130px white,
     300px 130px white,
-    220px 115px white;
+    220px 115px white,
+    0px 10px white,
+    10px 100px white,
+    20px 80px white,
+    30px 35px white,
+    -160px 10px white,
+    -220px 220px white,
+    -380px 270px white,
+    -440px 250px white, 
+    -520px 250px white,
+    -680px 250px white,
+    -760px 220px white,
+    -810px 200px white;
+
 }
 
 
