@@ -6,6 +6,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'warrior';
+  src: url(warrior/Guardian\ Warrior.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 *{
     margin: 0px;
@@ -60,12 +66,14 @@ body{
 
 
 h2{
-    font-size: 0.9em;
+    font-size: 1.7em;
     color: white;
-    font-family: "guardians";
+    font-family: "warrior";
     text-align: center;
     margin-bottom: 5%;
-    word-spacing: 1.3em;
+    text-transform: uppercase;
+    
+    font-weight: normal;
 }
 
 .textbox{
