@@ -95,6 +95,32 @@ h2{
     animation: shadowAnimation 1s infinite ease-in-out;
   }
 
+  .shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  .button{
+    text-align: center;
+    margin-top: %;
+  }
+  .shadow__btn {
+    background: #712aff;
+    box-shadow: 0 0 25px #712aff;
+    
+  }
+
+
+
+
+
 /*ESTRELAS*/
 .stars{
     margin: auto;
