@@ -87,7 +87,7 @@ body{
     font-family: "guardians";
     text-align: center;
     border: 1px solid white;
-    font-size: 2.2em;
+    font-size: 1.4em;
     border-bottom: 0px;
   }
   .title2 p{
@@ -95,7 +95,7 @@ body{
     font-family: "guardians";
     text-align: center;
     border: 1px solid white;
-    font-size: 2.2em;
+    font-size: 1.7em;
     border-top: 0px;
   }
 
@@ -136,7 +136,24 @@ body{
     font-size: 1em;
   }
 
+  .card {
+    padding: 2%;
+    width: 80%;
+    margin: auto;
+    background: linear-gradient(180deg, #060D1F,#bc3cca48);
+    box-shadow: -15px 15px 20px #0f255d, 10px -15px 20px #bc3cca48;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    animation: shadowAnimation 1s infinite ease-in-out;
+    margin-top: 5%;
+  }
 
+  .card h2{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+  }
 
 
 
@@ -476,7 +493,7 @@ body{
         transform: translateY(0px);
     }
     to {
-        transform: translateY(-1700px);
+        transform: translateY(-2800px);
     }
 }
 
