@@ -99,5 +99,7 @@ input{
     left: 48%;
     transform: translate(-50%,-50%);
     z-index: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
     
 }
