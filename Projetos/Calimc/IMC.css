@@ -28,7 +28,7 @@ height: 100%;
 border-radius: 30px;
 background: #212121;
 box-shadow: 15px 15px 30px rgb(25, 25, 25),-15px -15px 30px rgb(60, 60, 60);
-position: absolute;
+z-index: -1;
 transform-style: preserve-3d;
 transition: all 1s ease;
 }
@@ -41,6 +41,7 @@ transition: all 1s ease;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    
 }
 #frente {
     position: absolute;
@@ -49,6 +50,7 @@ transition: all 1s ease;
     border-radius: 30px;
     backface-visibility: hidden;
     background: #212121;
+    z-index: -1;
 }
 #atras {
     
@@ -57,6 +59,7 @@ transition: all 1s ease;
     border-radius: 30px;
     backface-visibility: hidden;
     transform: rotateY(180deg);
+    
     
 }
 #calculadora{
