@@ -29,7 +29,7 @@ border-radius: 30px;
 background: #212121;
 box-shadow: 15px 15px 30px rgb(25, 25, 25),-15px -15px 30px rgb(60, 60, 60);
 position: absolute;
-/*transform-style: preserve-3d;*/
+transform-style: preserve-3d;
 transition: all 1s ease;
 }
 
