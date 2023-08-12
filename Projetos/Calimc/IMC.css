@@ -57,6 +57,7 @@ transition: all 1s ease;
     border-radius: 30px;
     backface-visibility: hidden;
     transform: rotateY(180deg);
+    z-index: 1
 }
 #calculadora{
     position: absolute;
