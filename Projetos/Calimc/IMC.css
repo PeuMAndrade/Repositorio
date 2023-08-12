@@ -55,7 +55,7 @@ transition: all 1s ease;
     width: 120%;
     height: 100%;
     border-radius: 30px;
-    backface-visibility: hidden;
+    /*backface-visibility: hidden;*/
     transform: rotateY(180deg);
     z-index: 1
 }
