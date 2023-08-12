@@ -51,7 +51,7 @@ transition: all 1s ease;
     background: #212121;
 }
 #atras {
-    position: absolute;
+    
     width: 120%;
     height: 100%;
     border-radius: 30px;
@@ -68,6 +68,7 @@ transition: all 1s ease;
 }
 p{
     color: white;
+    z-index: 1;
     
 }
 input{
@@ -75,6 +76,7 @@ input{
     width: 130%;
     font-size: 1.5em;
     cursor: pointer;
+    z-index: 1;
 }
 #btn{
     margin-bottom: 5%;
@@ -85,6 +87,7 @@ input{
     color: white;
     background-color: red;
     padding: 3%;
+    z-index: 1;
 }
 #res{
     color: white;
