@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #212121;
+}
+#caixa{
+    width: 80%;
+    height: 300px;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+h1{
+    text-align: justify;
+    font-size: 1.2em;
+    color: white;
+    position: absolute;
+    top: -30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card {
+width: 100%;
+height: 100%;
+border-radius: 30px;
+background: #212121;
+box-shadow: 15px 15px 30px rgb(25, 25, 25),-15px -15px 30px rgb(60, 60, 60);
+position: absolute;
+transform-style: preserve-3d;
+transition: all 1s ease;
+}
+
+#caixa:hover .card{
+    transform: rotateY(180deg);
+}
+#bodybuilder{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#frente {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    backface-visibility: hidden;
+    background: #212121;
+}
+#atras {
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    border-radius: 30px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+#calculadora{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+p{
+    color: white;
+    
+}
+input{
+    background-color: gray;
+    width: 130%;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+#btn{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 133%;
+    color: white;
+    background-color: red;
+    padding: 3%;
+}
+#res{
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 58%;
+    transform: translate(-50%,-50%);
+}
