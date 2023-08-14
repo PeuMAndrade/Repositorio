@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Bit';
+    src: url(pix_lite/PIX_lite.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: 
+    #212121;
+}
+h1{
+    color: rgb(3, 143, 3);
+    font-size: 3em;
+    font-family: 'Bit';
+    line-height: 75%;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-family: 'Bit';
+    margin-top: 15%;
+    font-size: 1.3em;
+}
+input{
+    width: 50%;
+}
+
+.btn{
+    background-color: rgb(3, 143, 3);
+    width: 45%;
+}
+#pbtn{
+    font-size: 1.4em;
+    margin-top: -4%;
+}
+.card {
+    width: 300px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+    margin: auto;
+    padding: 3%;
+}
+#res{
+    font-size: 3em;
+    color: green;
+    font-family: 'Bit';
+    padding: 5%;
+    display: none;
+}

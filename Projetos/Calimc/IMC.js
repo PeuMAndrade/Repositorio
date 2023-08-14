@@ -16,9 +16,9 @@ function calcular(){
             res.innerHTML += `<br>IMC= ${imc.toFixed(1)}<br>`
             if(imc < 18.5){
                 res.innerHTML += `BAIXO PESO <br>`
-            } else if(imc >= 18.5 || imc < 24.99){
+            } else if(imc >= 18.5 && imc < 24.99){
                 res.innerHTML += `NORMAL <br>`
-            } else if(imc >= 25 || imc < 29.99){
+            } else if(imc >= 25 && imc < 29.99){
                 res.innerHTML += `SOBREPESO <br>`
             } else if(imc >= 30){
                 res.innerHTML += `OBESIDADE <br>`

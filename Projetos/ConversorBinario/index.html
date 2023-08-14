@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            text-align: center;
+            margin: 2%;
+        }
+        #res{
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>conversor<br>binário</h1>
+
+        <p>digite o numero que deseja converter</p>
+        <input type="text" id="space"><br>
+
+        <button class="btn" onclick="click1()">
+            <p id="pbtn">converter <br>para decimal</p>
+        </button>
+        
+        <button class="btn" onclick="click2()">
+            <p id="pbtn">converter <br>para binario</p>
+        </button>
+
+        <div id="res"></div>
+    </div>
+    <script src="CB.js"></script>
+</body>
+</html>
